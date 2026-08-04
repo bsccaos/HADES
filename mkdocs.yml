@@ -1,0 +1,39 @@
+site_name: Advanced Hardware Architectures Lab (HADES)
+site_description: Research in SoCs, Hardware IPs, and Systems Software
+site_author: "HADES Lab Group"
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - toc.integrate
+    - search.suggest
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep purple
+
+nav:
+  - Home: index.md
+  - Our Team: team.md
+  - Publications: publications.md
+  - Systems on Chip (SoCs):
+      - Overview: socs/index.md
+      - Chip Alpha: socs/chip_alpha.md
+  - Hardware IPs:
+      - Overview: ips/index.md
+      - ALU v2: ips/alu_v2.md
+      - Crypto Core: ips/crypto_core.md
+  - Software & Tools:
+      - API Drivers: software/driver_api.md
+      - Compilers: software/compilers.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - tables
+  - pymdownx.arithmatex:
+      generic: true
