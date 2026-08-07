@@ -10,11 +10,19 @@ The **HArdware Dependability for Embedded Systems (HADES)** group is part of the
 
 ---
 
-## 🔬 Researchers
+## ⭐️ Senior Staff
 
 * **Feng Chang** – Recognised Researcher
 * **Ivan Rodriguez Ferrandez** – Recognised Researcher
 * **Ramon Canal** – Associate Researcher
+* **Juan Carlos Rodriguez Rivas** – Established Research Engineer
+* **Matina Maria Trompouki** – Senior Research Engineer
+* **Sergi Alcaide** – Senior Research Engineer
+
+---
+
+## 🔬 Early Career Researchers
+
 * **Ahlame El Afghani** – First Stage Researcher
 * **Francisco Javier Fuentes Diaz** – First Stage Researcher
 * **Iker Fernandez Andonegui** – First Stage Researcher
@@ -26,9 +34,6 @@ The **HArdware Dependability for Embedded Systems (HADES)** group is part of the
 
 ## ⚙️ Research Engineers
 
-* **Juan Carlos Rodriguez Rivas** – Established Research Engineer
-* **Matina Maria Trompouki** – Senior Research Engineer
-* **Sergi Alcaide** – Senior Research Engineer
 * **Jannis Gunter Josef Wolf** – Research Engineer
 * **Omar Alymlahi** – Research Engineer
 * **Alvaro Jover Alvarez** – Junior Research Engineer
