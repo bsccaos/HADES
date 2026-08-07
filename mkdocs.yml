@@ -1,6 +1,6 @@
-site_name: Advanced Hardware Architectures Lab (HADES)
+site_name: HArdware Dependability for Embedded Systems (HADES)
 site_description: Research in SoCs, Hardware IPs, and Systems Software
-site_author: "HADES Lab Group"
+site_author: "HADES Research Group"
 site_url: https://bsccaos.github.io/HADES/
 
 theme:
