@@ -19,16 +19,9 @@ nav:
   - Home: index.md
   - Our Team: team.md
   - Publications: publications.md
-  - Systems on Chip (SoCs):
-      - Overview: socs/index.md
-      - Chip Alpha: socs/chip_alpha.md
-  - Hardware IPs:
-      - Overview: ips/index.md
-      - ALU v2: ips/alu_v2.md
-      - Crypto Core: ips/crypto_core.md
-  - Software & Tools:
-      - API Drivers: software/driver_api.md
-      - Compilers: software/compilers.md
+  - Systems on Chip (SoCs): socs/index.md
+  - Hardware IPs: ips/index.md
+  - Software & Tools: software/index.md
 
 markdown_extensions:
   - admonition
