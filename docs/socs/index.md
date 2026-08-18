@@ -8,7 +8,7 @@
 ---
 
 ## 🛠️ Upcoming Content
-- **Space-Grade RISC-V MPSoCs** (e.g., De-RISC platform)
+- **Space-Grade RISC-V MPSoCs** (e.g., METASAT platform, De-RISC platform)
 - **Fault-Tolerant Multi-Core Architectures**
 - **Safety-Critical Acceleration Platforms**
 
