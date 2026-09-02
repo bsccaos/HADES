@@ -28,3 +28,19 @@
    - Extracted **all 298 publications** across all 10 pages (`page=0` to `page=9`) from the official BSC HADES publications repository.
    - Added complete **Authors**, **Venue/Journal names**, paper **Titles**, and direct repository links.
    - Verified clean local compilation via `python -m mkdocs build`.
+
+---
+
+## 📌 Pending Tasks
+
+1. **Systems on Chip (SoCs) Content (`docs/socs/index.md`)**
+   - Add detailed specs, architecture diagrams, and documentation for space-grade MPSoCs (METASAT platform, De-RISC platform).
+   - Document Fault-Tolerant Multi-Core Architectures & Safety-Critical Acceleration Platforms.
+
+2. **Hardware IPs Content (`docs/ips/index.md`)**
+   - Add hardware specs, usage guides, and repository links for SafeSU-2 (Safe Statistics Unit).
+   - Document SafeDM (Hardware Diversity Monitor) and Custom RISC-V Hardware Extensions.
+
+3. **Software & Tools Content (`docs/software/index.md`)**
+   - Add user guides and documentation for SafeTI (Traffic Injector for Interference Testing).
+   - Document Real-Time & Dependable Embedded Software Frameworks and GPU & SYCL Tooling.

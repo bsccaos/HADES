@@ -64,6 +64,14 @@ The [`AGENTS.md`](AGENTS.md) file enforces the following guidelines for AI assis
 - **Explicit Confirmation**: The AI is **never allowed** to execute `git commit` or `git push` automatically without receiving your explicit user confirmation first.
 - **Documentation Preservation**: Maintain docstrings, links, and structure integrity across all pages.
 
+### 3. Managing Pending Tasks
+
+All **pending tasks** and **completed tasks** are tracked and logged directly inside [`AGENTS.md`](AGENTS.md).
+
+- **Finding Work to Do**: Check the **📌 Pending Tasks** section in [`AGENTS.md`](AGENTS.md) to see planned features, documentation updates, and technical tasks.
+- **Adding New Tasks**: If you or a team member want to plan new work, add the task items to [`AGENTS.md`](AGENTS.md) so all human contributors and AI agents remain synchronized.
+
+
 ---
 
 ## 📦 Deployment & CI/CD
