@@ -1,7 +1,7 @@
 site_name: HArdware Dependability for Embedded Systems (HADES)
 site_description: Research in SoCs, Hardware IPs, and Systems Software
 site_author: "HADES Research Group"
-site_url: https://pages.bsc.es/hades_webpage/
+site_url: https://caos_hw.gitlab-pages.bsc.es/hades_webpage/
 
 theme:
   name: material
