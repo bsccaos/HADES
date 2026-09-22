@@ -89,6 +89,10 @@ If you are a new member of HADES or need to update your details:
    - **`orcid`**: Your full ORCID URL (e.g. `https://orcid.org/0000-0001-9751-1058`). Leave blank if you do not have one.
 3. If an ORCID URL is present, a small clickable ORCID logo icon will automatically appear next to your name on the team page!
 
+> 💡 **Automatic Generation**:
+> - **In GitLab CI/CD**: The website pipeline automatically runs `python scripts/generate_team.py` on every push, so editing `docs/team.csv` is all you need to do!
+> - **In Local Development**: Run `python scripts/generate_team.py` to update `docs/team.md` locally before previewing.
+
 ---
 
 ## 📦 Deployment & CI/CD

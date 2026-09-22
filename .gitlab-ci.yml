@@ -4,6 +4,7 @@ pages:
   stage: deploy
   script:
     - pip install --no-cache-dir mkdocs mkdocs-material
+    - python scripts/generate_team.py
     - mkdocs build --site-dir public
   artifacts:
     paths:
