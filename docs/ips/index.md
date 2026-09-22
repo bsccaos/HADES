@@ -152,4 +152,23 @@ The **Safe Lockstep (SafeLS)** unit is an open-source RISC-V lockstep core based
 ### 6. SAURIA – DRAC Automotive Accelerator
 **SAURIA** is a Convolutional Neural Network (CNN) hardware accelerator module based on a 2D systolic array architecture with on-chip convolutional mapping, written in SystemVerilog. Developed as part of the DRAC project, it targets a 22 nm ASIC implementation for automotive deep learning workloads.
 
+- **DOI / Publications**: [10.1109/TVLSI.2023.3286122](https://doi.org/10.1109/TVLSI.2023.3286122)
 - **Repository**: [bsc-loca/sauria](https://github.com/bsc-loca/sauria)
+
+??? info "📥 Export Citation (BibTeX)"
+
+    **IEEE TVLSI 2023**: [Download .bib File](https://api.crossref.org/works/10.1109/TVLSI.2023.3286122/transform/application/x-bibtex)
+    ```bibtex
+    @article{Fornt_2023_SAURIA,
+      title={An Energy-Efficient GeMM-Based Convolution Accelerator With On-the-Fly im2col},
+      author={Fornt, Jordi and Fontova-Must{\'e}, Pau and Caro, Mart{\'i} and Abella, Jaume and Moll, Francesc and Altet, Josep and Studer, Christoph},
+      journal={IEEE Transactions on Very Large Scale Integration (VLSI) Systems},
+      volume={31},
+      number={11},
+      pages={1874--1878},
+      year={2023},
+      publisher={IEEE},
+      doi={10.1109/TVLSI.2023.3286122}
+    }
+    ```
+
