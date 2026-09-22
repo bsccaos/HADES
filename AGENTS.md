@@ -29,6 +29,14 @@
    - Added complete **Authors**, **Venue/Journal names**, paper **Titles**, and direct repository links.
    - Verified clean local compilation via `python -m mkdocs build`.
 
+5. **Hardware IPs Extraction (`docs/ips/index.md`)**
+   - Extracted official hardware IP components from `https://bsccaos.github.io/`: **SafeSU**, **SafeTI**, **SafeDE**, **SafeDM**, **SafeLS**, and **SAURIA**.
+   - Included full descriptions, DOI links, and GitHub repository references.
+
+6. **Software & Tools Update (`docs/software/index.md`)**
+   - Extracted **SafeSoftDR** (Safe Software Diverse Redundancy library) with arXiv DOI link and GitHub repository reference.
+   - Added real-time interference accounting and critical GPU/SYCL tooling sections.
+
 ---
 
 ## 📌 Pending Tasks
@@ -37,10 +45,3 @@
    - Add detailed specs, architecture diagrams, and documentation for space-grade MPSoCs (METASAT platform, De-RISC platform).
    - Document Fault-Tolerant Multi-Core Architectures & Safety-Critical Acceleration Platforms.
 
-2. **Hardware IPs Content (`docs/ips/index.md`)**
-   - Add hardware specs, usage guides, and repository links for SafeSU-2 (Safe Statistics Unit).
-   - Document SafeDM (Hardware Diversity Monitor) and Custom RISC-V Hardware Extensions.
-
-3. **Software & Tools Content (`docs/software/index.md`)**
-   - Add user guides and documentation for SafeTI (Traffic Injector for Interference Testing).
-   - Document Real-Time & Dependable Embedded Software Frameworks and GPU & SYCL Tooling.
