@@ -74,7 +74,25 @@ All **pending tasks** and **completed tasks** are tracked and logged directly in
 
 ---
 
+## 👥 Updating the Team Roster
+
+The HADES team directory ([`docs/team.md`](docs/team.md)) is generated from the structured dataset in [`docs/team.csv`](docs/team.csv).
+
+If you are a new member of HADES or need to update your details:
+
+1. Open [`docs/team.csv`](docs/team.csv).
+2. Add a new row (or update your existing entry) with the following fields:
+   - **`name`**: Full Name
+   - **`category`**: Select one of: `Group Leader`, `Senior Staff`, `Early Career Researchers`, `Research Engineers`, or `Visitors & External Collaborators`
+   - **`position`**: Your role / title (e.g., *Junior Research Engineer*)
+   - **`email`**: Your BSC email address
+   - **`orcid`**: Your full ORCID URL (e.g. `https://orcid.org/0000-0001-9751-1058`). Leave blank if you do not have one.
+3. If an ORCID URL is present, a small clickable ORCID logo icon will automatically appear next to your name on the team page!
+
+---
+
 ## 📦 Deployment & CI/CD
+
 
 The website is configured for automatic deployment using **GitLab Pages**:
 

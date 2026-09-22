@@ -20,7 +20,7 @@
    - Extracted official BSC HADES description, research directions, lab affiliations, and contact details.
 
 3. **Team Roster Update (`docs/team.md`)**
-   - Corrected sister research groups to **SODES** and **TAIES** only.
+   - Corrected sister research groups to **SODES** and **AIDES** only.
    - Extracted and populated all **28 team members** across all 3 pages (`page=0`, `page=1`, `page=2`).
    - Added **Senior Staff** section right after Group Leader (Feng Chang, Ivan Rodriguez Ferrandez, Ramon Canal, Juan Carlos Rodriguez Rivas, Matina Maria Trompouki, Sergi Alcaide).
 
@@ -37,6 +37,10 @@
    - Extracted **SafeSoftDR** (Safe Software Diverse Redundancy library) with arXiv DOI link and GitHub repository reference.
    - Added real-time interference accounting and critical GPU/SYCL tooling sections.
 
+7. **Team Roster CSV & ORCID Integration (`docs/team.csv` & `docs/team.md`)**
+   - Created a structured CSV dataset [`docs/team.csv`](docs/team.csv) containing all 28 team member names, categories, titles, emails, and ORCID URLs.
+   - Rendered [`docs/team.md`](docs/team.md) from the CSV data, displaying a small ORCID logo icon with direct link next to each member's name.
+
 ---
 
 ## 📌 Pending Tasks
@@ -45,8 +49,5 @@
    - Add detailed specs, architecture diagrams, and documentation for space-grade MPSoCs (METASAT platform, De-RISC platform).
    - Document Fault-Tolerant Multi-Core Architectures & Safety-Critical Acceleration Platforms.
 
-2. **Team Roster CSV & ORCID Integration (`docs/team.md`)**
-   - Create a CSV data file (`docs/team.csv`) containing team member names, positions, emails, and ORCID URLs.
-   - Populate [`docs/team.md`](docs/team.md) from the CSV data, displaying a small ORCID logo icon with direct link next to each member's name. (To be executed after completing the Export Citation feature).
 
 

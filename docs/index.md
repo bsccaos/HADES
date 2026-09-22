@@ -2,7 +2,7 @@
 
 Welcome to the official documentation website for the **HArdware Dependability for Embedded Systems (HADES)** research group at the [Barcelona Supercomputing Center (BSC-CNS)](https://www.bsc.es/).
 
-HADES operates within the **High-Performance Embedded Systems (HPES)** laboratory in coordination with the **SOftware Dependability for Embedded Systems (SODES)** and **Trustworthy Artificial Intelligence for Embedded Systems (TAIES)** research groups.
+HADES operates within the **High-Performance Embedded Systems (HPES)** laboratory in coordination with the [**SOftware Dependability for Embedded Systems (SODES)**](https://www.bsc.es/discover-bsc/organisation/research-structure/software-dependability-embedded-systems-sodes) and [**Applications for Intelligent Dependable Embedded Systems (AIDES)**](https://www.bsc.es/discover-bsc/organisation/research-structure/applications-intelligent-dependable-embedded-systems) research groups.
 
 ---
 
