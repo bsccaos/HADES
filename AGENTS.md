@@ -45,3 +45,8 @@
    - Add detailed specs, architecture diagrams, and documentation for space-grade MPSoCs (METASAT platform, De-RISC platform).
    - Document Fault-Tolerant Multi-Core Architectures & Safety-Critical Acceleration Platforms.
 
+2. **Team Roster CSV & ORCID Integration (`docs/team.md`)**
+   - Create a CSV data file (`docs/team.csv`) containing team member names, positions, emails, and ORCID URLs.
+   - Populate [`docs/team.md`](docs/team.md) from the CSV data, displaying a small ORCID logo icon with direct link next to each member's name. (To be executed after completing the Export Citation feature).
+
+

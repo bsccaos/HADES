@@ -12,6 +12,34 @@ The **Safe Statistics Unit (SafeSU)** is an RTL IP core that implements advanced
 - **DOI / Publications**: [10.1109/ETS50041.2021.9465444](https://doi.org/10.1109/ETS50041.2021.9465444) | [10.23919/DATE54114.2022.9774515](https://doi.org/10.23919/DATE54114.2022.9774515)
 - **Repository**: [bsc-loca/SafeSU](https://github.com/bsc-loca/SafeSU/)
 
+??? info "📥 Export Citation (BibTeX)"
+
+    **IEEE ETS 2021**: [Download .bib File](https://api.crossref.org/works/10.1109/ETS50041.2021.9465444/transform/application/x-bibtex)
+    ```bibtex
+    @inproceedings{Cabo_2021_SafeSU,
+      title={SafeSU: an Extended Statistics Unit for Multicore Timing Interference},
+      author={Cabo, Guillem and Bas, Francisco and Lorenzo, Ruben and Trilla, David and Alcaide, Sergi and Moreto, Miquel and Hernandez, Carles and Abella, Jaume},
+      booktitle={2021 IEEE European Test Symposium (ETS)},
+      pages={1--4},
+      year={2021},
+      publisher={IEEE},
+      doi={10.1109/ETS50041.2021.9465444}
+    }
+    ```
+
+    **DATE 2022**: [Download .bib File](https://api.crossref.org/works/10.23919/DATE54114.2022.9774515/transform/application/x-bibtex)
+    ```bibtex
+    @inproceedings{Cabo_2022_SafeSU2,
+      title={SafeSU-2: a Safe Statistics Unit for Space MPSoCs},
+      author={Cabo, Guillem and Alcaide, Sergi and Hernandez, Carles and Benedicte, Pedro and Bas, Francisco and Mazzocchetti, Fabio and Abella, Jaume},
+      booktitle={2022 Design, Automation & Test in Europe Conference & Exhibition (DATE)},
+      pages={1085--1086},
+      year={2022},
+      publisher={IEEE},
+      doi={10.23919/DATE54114.2022.9774515}
+    }
+    ```
+
 ---
 
 ### 2. SafeTI – Safe Traffic Injector
@@ -19,6 +47,21 @@ The **Safe Traffic Injector (SafeTI)** unit acts as an AHB Master IP connected t
 
 - **DOI / Publications**: [10.1109/IOLTS52814.2021.9486689](https://doi.org/10.1109/IOLTS52814.2021.9486689)
 - **Repository**: [bsc-loca/SafeTI](https://github.com/bsc-loca/SafeTI/)
+
+??? info "📥 Export Citation (BibTeX)"
+
+    **IEEE IOLTS 2021**: [Download .bib File](https://api.crossref.org/works/10.1109/IOLTS52814.2021.9486689/transform/application/x-bibtex)
+    ```bibtex
+    @inproceedings{Sala_2021_SafeTI,
+      title={SafeTI: a Hardware Traffic Injector for MPSoC Functional and Timing Validation},
+      author={Sala, Oriol and Alcaide, Sergi and Cabo, Guillem and Bas, Francisco and Lorenzo, Ruben and Benedicte, Pedro and Trilla, David and Gil, Guillermo and Mazzocchetti, Fabio and Abella, Jaume},
+      booktitle={2021 IEEE 27th International Symposium on On-Line Testing and Robust System Design (IOLTS)},
+      pages={1--7},
+      year={2021},
+      publisher={IEEE},
+      doi={10.1109/IOLTS52814.2021.9486689}
+    }
+    ```
 
 ---
 
@@ -28,6 +71,36 @@ The **Safe Diversity Enforcer (SafeDE)** hardware module provides light-lockstep
 - **DOI / Publications**: [10.1109/TDMR.2022.3156799](https://doi.org/10.1109/TDMR.2022.3156799) | [10.1109/IOLTS52814.2021.9486715](http://dx.doi.org/10.1109/IOLTS52814.2021.9486715)
 - **Repository**: [bsc-loca/SafeDE](https://github.com/bsc-loca/SafeDE/)
 
+??? info "📥 Export Citation (BibTeX)"
+
+    **IEEE TDMR 2022**: [Download .bib File](https://api.crossref.org/works/10.1109/TDMR.2022.3156799/transform/application/x-bibtex)
+    ```bibtex
+    @article{Bas_2022_SafeDE_TDMR,
+      title={SafeDE: A Low-Cost Hardware Solution to Enforce Diverse Redundancy in Multicores},
+      author={Bas, Francisco and Alcaide, Sergi and Cabo, Guillem and Benedicte, Pedro and Abella, Jaume},
+      journal={IEEE Transactions on Device and Materials Reliability},
+      volume={22},
+      number={2},
+      pages={111--119},
+      year={2022},
+      publisher={IEEE},
+      doi={10.1109/TDMR.2022.3156799}
+    }
+    ```
+
+    **IEEE IOLTS 2021**: [Download .bib File](https://api.crossref.org/works/10.1109/IOLTS52814.2021.9486715/transform/application/x-bibtex)
+    ```bibtex
+    @inproceedings{Bas_2021_SafeDE_IOLTS,
+      title={SafeDE: a flexible Diversity Enforcement hardware module for light-lockstepping},
+      author={Bas, Francisco and Alcaide, Sergi and Lorenzo, Ruben and Cabo, Guillem and Gil, Guillermo and Sala, Oriol and Mazzocchetti, Fabio and Trilla, David and Abella, Jaume},
+      booktitle={2021 IEEE 27th International Symposium on On-Line Testing and Robust System Design (IOLTS)},
+      pages={1--7},
+      year={2021},
+      publisher={IEEE},
+      doi={10.1109/IOLTS52814.2021.9486715}
+    }
+    ```
+
 ---
 
 ### 4. SafeDM – Safe Diversity Measurer
@@ -36,6 +109,21 @@ The **Safe Diversity Measurer (SafeDM)** is a dedicated hardware module that con
 - **DOI / Publications**: [10.23919/DATE54114.2022.9774540](https://doi.org/10.23919/DATE54114.2022.9774540)
 - **Repository**: [bsc-loca/SafeDM](https://github.com/bsc-loca/SafeDM)
 
+??? info "📥 Export Citation (BibTeX)"
+
+    **DATE 2022**: [Download .bib File](https://api.crossref.org/works/10.23919/DATE54114.2022.9774540/transform/application/x-bibtex)
+    ```bibtex
+    @inproceedings{Bas_2022_SafeDM,
+      title={SafeDM: a Hardware Diversity Monitor for Redundant Execution on Non-Lockstepped Cores},
+      author={Bas, Francisco and Benedicte, Pedro and Alcaide, Sergi and Cabo, Guillem and Mazzocchetti, Fabio and Abella, Jaume},
+      booktitle={2022 Design, Automation & Test in Europe Conference & Exhibition (DATE)},
+      pages={358--363},
+      year={2022},
+      publisher={IEEE},
+      doi={10.23919/DATE54114.2022.9774540}
+    }
+    ```
+
 ---
 
 ### 5. SafeLS – Safe Lockstep Core
@@ -43,6 +131,21 @@ The **Safe Lockstep (SafeLS)** unit is an open-source RISC-V lockstep core based
 
 - **DOI / Publications**: [10.1109/IOLTS59296.2023.10224867](https://doi.org/10.1109/IOLTS59296.2023.10224867)
 - **Repository**: [bsc-loca/SafeLS](https://github.com/bsc-loca/SafeLS)
+
+??? info "📥 Export Citation (BibTeX)"
+
+    **IEEE IOLTS 2023**: [Download .bib File](https://api.crossref.org/works/10.1109/IOLTS59296.2023.10224867/transform/application/x-bibtex)
+    ```bibtex
+    @inproceedings{Sarraseca_2023_SafeLS,
+      title={SafeLS: An Open Source Implementation of a Lockstep NOEL-V RISC-V Core},
+      author={Sarraseca, Marcel and Alcaide, Sergi and Fuentes, Francisco and Rodriguez, Juan Carlos and Chang, Feng and Lasfar, Ilham and Canal, Ramon and Cazorla, Francisco J. and Abella, Jaume},
+      booktitle={2023 IEEE 29th International Symposium on On-Line Testing and Robust System Design (IOLTS)},
+      pages={1--7},
+      year={2023},
+      publisher={IEEE},
+      doi={10.1109/IOLTS59296.2023.10224867}
+    }
+    ```
 
 ---
 

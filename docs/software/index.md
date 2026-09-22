@@ -12,6 +12,20 @@ The **Safe Software Diverse Redundancy library (SafeSoftDR)** provides programme
 - **DOI / Preprints**: [arXiv:2210.00833](https://doi.org/10.48550/arXiv.2210.00833)
 - **Repository**: [bsc-loca/SafeSoftDR](https://github.com/bsc-loca/SafeSoftDR)
 
+??? info "📥 Export Citation (BibTeX)"
+
+    **arXiv Preprint 2022**: [Download .bib File](https://api.crossref.org/works/10.48550/arXiv.2210.00833/transform/application/x-bibtex)
+    ```bibtex
+    @misc{Mazzocchetti_2022_SafeSoftDR,
+      title={SafeSoftDR: A Library to Enable Software-based Diverse Redundancy for Safety-Critical Tasks},
+      author={Mazzocchetti, Fabio and Alcaide, Sergi and Bas, Francisco and Benedicte, Pedro and Cabo, Guillem and Chang, Feng and Fuentes, Francisco and Abella, Jaume},
+      year={2022},
+      publisher={arXiv},
+      doi={10.48550/arXiv.2210.00833},
+      url={https://arxiv.org/abs/2210.00833}
+    }
+    ```
+
 ---
 
 ### 2. Dependable Real-Time Software Frameworks
