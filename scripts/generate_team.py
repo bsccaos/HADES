@@ -70,4 +70,4 @@ md_lines.extend([
 with open(md_path, "w", encoding="utf-8") as f:
     f.write("\n".join(md_lines))
 
-print(f"✅ Generated {md_path} from {csv_path}")
+print(f"Generated {md_path} from {csv_path}")

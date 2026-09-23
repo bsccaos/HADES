@@ -5,6 +5,8 @@ pages:
   script:
     - pip install --no-cache-dir mkdocs mkdocs-material
     - python scripts/generate_team.py
+    - python scripts/generate_ips.py
+    - python scripts/generate_software.py
     - mkdocs build --site-dir public
   artifacts:
     paths:

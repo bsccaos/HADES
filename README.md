@@ -74,24 +74,20 @@ All **pending tasks** and **completed tasks** are tracked and logged directly in
 
 ---
 
-## 👥 Updating the Team Roster
+## 📊 Managing Content via CSV Datasets
 
-The HADES team directory ([`docs/team.md`](docs/team.md)) is generated from the structured dataset in [`docs/team.csv`](docs/team.csv).
+The HADES documentation site uses structured CSV files to manage dynamic content:
 
-If you are a new member of HADES or need to update your details:
+1. **Team Directory** ([`docs/team.csv`](docs/team.csv) ➔ `docs/team.md`):
+   - Edit [`docs/team.csv`](docs/team.csv) to add or update team members, roles, emails, and ORCID URLs.
+2. **Hardware IPs** ([`docs/ips.csv`](docs/ips.csv) ➔ `docs/ips/index.md`):
+   - Edit [`docs/ips.csv`](docs/ips.csv) to add hardware components, descriptions, DOIs, and repository links.
+3. **Software & Tools** ([`docs/software.csv`](docs/software.csv) ➔ `docs/software/index.md`):
+   - Edit [`docs/software.csv`](docs/software.csv) to add software tools, preprints/DOIs, and repository links.
 
-1. Open [`docs/team.csv`](docs/team.csv).
-2. Add a new row (or update your existing entry) with the following fields:
-   - **`name`**: Full Name
-   - **`category`**: Select one of: `Group Leader`, `Senior Staff`, `Early Career Researchers`, `Research Engineers`, or `Visitors & External Collaborators`
-   - **`position`**: Your role / title (e.g., *Junior Research Engineer*)
-   - **`email`**: Your BSC email address
-   - **`orcid`**: Your full ORCID URL (e.g. `https://orcid.org/0000-0001-9751-1058`). Leave blank if you do not have one.
-3. If an ORCID URL is present, a small clickable ORCID logo icon will automatically appear next to your name on the team page!
-
-> 💡 **Automatic Generation**:
-> - **In GitLab CI/CD**: The website pipeline automatically runs `python scripts/generate_team.py` on every push, so editing `docs/team.csv` is all you need to do!
-> - **In Local Development**: Run `python scripts/generate_team.py` to update `docs/team.md` locally before previewing.
+> 💡 **Automated Pipeline**:
+> - **In GitLab CI/CD**: The pipeline automatically runs `python scripts/generate_team.py`, `python scripts/generate_ips.py`, and `python scripts/generate_software.py` on every push. You only need to edit the CSV files!
+> - **In Local Development**: Run `python scripts/generate_ips.py` or `python scripts/generate_software.py` to regenerate the pages locally before previewing.
 
 ---
 
